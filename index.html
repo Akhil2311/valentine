@@ -154,6 +154,8 @@
             overflow: hidden;
             border-radius: 5px;
             box-shadow: 0 0 5px 0px #7e7e7e;
+            opacity: 0;
+            transition: 5s;
         }
 
         .letter p {
@@ -188,9 +190,9 @@
 
 
         .container.open .letter {
-            transition: 1s;
             transform: translateY(-200px);
             z-index: 9;
+            opacity: 1;
         }
     </style>
 </head>
@@ -204,7 +206,9 @@
             <div class="flap-right"></div>
             <div class="letter">
                 <p>Dear 😻 </p>
-                <p>Those hypnotic eyes, charismatic smile, A touch so warm, a heart so wild. Whispers soft, like a gentle breeze, Love that lingers, sweet with ease. Hand in hand, through stars we sway, Forever yours, come what may. 💕 </p>
+                <p>Those hypnotic eyes, charismatic smile, A touch so warm, a heart so wild. Whispers soft, like a
+                    gentle breeze, Love that lingers, sweet with ease. Hand in hand, through stars we sway, Forever
+                    yours, come what may. 💕 </p>
             </div>
         </div>
         <div class="hearts">
